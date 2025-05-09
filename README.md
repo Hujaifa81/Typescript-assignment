@@ -7,8 +7,6 @@ Understanding TypeScript's core types is essential for writing clean, type-safe 
 - **Definition**: Disables type checking. Variables of type `any` can hold any value.
 - **Behavior**: No type safety; we can call any method or access any property.
 
-  ```
-
 ### 🔸 `unknown`
 - **Definition**: Like `any`, but safer. We must perform a type check before using the value.
 - **Behavior**: TypeScript will not allow us to use unknown values without narrowing.
