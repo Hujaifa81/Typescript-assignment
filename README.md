@@ -13,8 +13,6 @@ Understanding TypeScript's core types is essential for writing clean, type-safe 
 - **Definition**: Like `any`, but safer. We must perform a type check before using the value.
 - **Behavior**: TypeScript will not allow us to use unknown values without narrowing.
 
-
-
 ### 🔸 `never`
 - **Definition**: Represents a value that should never occur.
 - **Use Cases**: Functions that throw errors or never return.
